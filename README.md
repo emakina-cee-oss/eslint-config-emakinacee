@@ -1,23 +1,9 @@
 # eslint-config-emakinacee
 
-[![npm version](https://badge.fury.io/js/eslint-config-emakinacee.svg)](http://badge.fury.io/js/eslint-config-emakinacee)
+Deprecated!
 
-This package provides Emakina CEE's .eslintrc as an extensible shared config.
-
-## Usage
-
-### eslint-config-emakinacee
-
-Our default export contains all of our ESLint rules, including EcmaScript 6+
-and React.
-
-1. `npm install --save-dev eslint-config-emakinacee`
-2. add `"extends": "emakinacee"` to your .eslintrc
-
-### eslint-config-emakinacee/angular
-
-Our default rules can be extended by our angular specific rules.
-
-1. `npm install --save-dev eslint-config-emakinacee`
-3. add `"extends": "emakinacee/angular"` to your .eslintrc
+Please use the following packages instead:
++ [eslint-config-emakinacee-base](https://github.com/emakina-cee-oss/javascript/tree/master/packages/eslint-config-emakinacee-base)
++ [eslint-config-emakinacee-angular](https://github.com/emakina-cee-oss/javascript/tree/master/packages/eslint-config-emakinacee-angular)
++ [eslint-config-emakinacee-react](https://github.com/emakina-cee-oss/javascript/tree/master/packages/eslint-config-emakinacee-react)
 
